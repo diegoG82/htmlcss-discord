@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial,       sans-serif;
 }
 
 img{
@@ -10,15 +11,17 @@ img{
     }
 
     /* font */
-    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
 
-       header{
 
-        background-image: url(../img/jumbo.png);
-        background-size: cover;
-        height: 400px;
+        header{
+            background-image: url(../img/jumbo.png);
+            background-size: contain;
+            
+          
 
-       }
+        }
+      
         
         .nav-header{
             
