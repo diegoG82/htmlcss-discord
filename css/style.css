@@ -121,6 +121,7 @@ background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
 .grey{
@@ -139,10 +140,11 @@ background-size: cover;
     /* debug */
     background-color: lightgray;
     /* /debug */
-    height: 700px;
+    height: 800px;
     display: flex; 
     justify-content: center;
     align-items: center; 
+    text-align: center;
   }
 
 
@@ -157,18 +159,38 @@ background-size: cover;
 .square-pink{
     /* debug */
     background-color: pink;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     height: 400px;
     width:30%;
+    padding:20px;   
 }
 
 .square-green{
     /* debug */
-    background-color: green;
+    /* background-color: green; */
     border: 1px dashed black;
-    height: 600px;
+    
+    height: 800px;
     width: 80%;
     
+}
+
+.bottom-phrase{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+}
+
+.bottom-button{
+    padding: 20px;
+}
+
+.last-button{
+    background-color: rgb(40, 100, 196);
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
 }
 
 /* footer */
