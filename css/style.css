@@ -3,54 +3,114 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font */
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img{
+    max-width: 100%;
 }
 
 
-.flex-header{
-    background-color: lightblue;
+
+/* HEADER */
+
+header{
+background-image: url(../img/jumbo.png);
+background-size: cover;
+}
+
+.nav-header{
+    
+    /* background-color: rgb(40, 30, 235); */
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
 }
 
 .nav{
     display:flex;
-    background-color: orange;
-    width:1200px;
+    /* background-color: rgb(0, 94, 255); */
+    /* width:1200px; */
     justify-content: space-between;
-    border: 1px dashed black;
-    gap: 10px;
+    /* border: 1px dashed black; */
+    /* gap: 10px; */
+    flex-grow: 1;
+   
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+   
 }
 
 .logo{
-    border-right: 1px dashed black; 
-    width: 350px;  
+    /* border-right: 1px dashed black;  */
+    width: 20%; 
+    text-align: center; 
     } 
 
 .login{
-    border-left: 1px dashed black;
-    width: 350px; 
-    text-align: right;
+    /* border-left: 1px dashed black; */
+    width: 20%; 
+    text-align: center; 
+}  
 
-}    
+.login-button{
+  
+    background-color: white;
+    color: black;
+    padding: 6px;
+    border-radius: 15px;
+    text-decoration: none ;
+}
 
  
 
 .main-header{
 
     height: 300px;
-    background-color: blue;
+    /* background-color: rgb(111, 111, 200); */
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
 .quadrato-header{
-    height: 250px;
-    width: 600px;
-    background-color: violet;
+    /* height: 250px; */
+    width: 50%;
+    /* background-color: violet; */
+    text-align: center;
 
+}
+
+.quadrato-header{
+    color: white;
+}
+
+.header-p{
+    padding: 5px;
+}
+
+.dl-button{
+    color:black;
+    padding:10px;
+    margin-right: 5px;
+    background-color:white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.open-button{
+    color: white;
+    padding: 10px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-left: 5px;
 }
 
 /* MAIN */
