@@ -3,115 +3,116 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font */
-    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 img{
-    max-width: 100%;
-}
+        max-width: 100%;
+    }
 
+    /* font */
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+       header{
 
-/* HEADER */
+        background-image: url(../img/jumbo.png);
+        background-size: cover;
+        height: 400px;
 
-header{
-background-image: url(../img/jumbo.png);
-background-size: cover;
-}
+       }
+        
+        .nav-header{
+            
+            background-color: rgb(40, 30, 235);
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10px;
+        }
+        
+        .nav{
+            display:flex;
+            justify-content: space-between;
+            flex-grow: 1;
+            width:1200px;
+            /* background-color: rgb(0, 94, 255); */
+            /* border: 1px dashed black; */
+            /* gap: 10px;  */
+        }
+        
+        .nav-link{
+            color: white;
+            text-decoration: none;
+           
+        }
+        
+        .logo{
+            /* border-right: 1px dashed black;  */
+            width: 20%; 
+            text-align: center; 
+            } 
+        
+        .login{
+            /* border-left: 1px dashed black; */
+            width: 20%; 
+            text-align: center; 
+        }  
+        
+        .login-button{
+          
+            background-color: white;
+            color: black;
+            padding: 6px;
+            border-radius: 15px;
+            text-decoration: none ;
+        }
+        
+         
+        
+        .main-header{
+        
+            height: 300px;
+            background-color: rgb(111, 111, 200);
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .quadrato-header{
+            /* height: 250px; */
+            width: 50%;
+            /* background-color: violet; */
+            text-align: center;
+        
+        }
+        
+        .quadrato-header{
+            color: white;
+        }
+        
+        .header-p{
+            padding: 5px;
+        }
+        
+        .dl-button{
+            color:black;
+            padding:10px;
+            margin-right: 5px;
+            background-color:white;
+            text-decoration: none;
+            border-radius: 15px;
+        }
+        
+        .open-button{
+            color: white;
+            padding: 10px;
+            background-color: black;
+            text-decoration: none;
+            border-radius: 15px;
+            margin-left: 5px;
+        }
+        
 
-.nav-header{
-    
-    /* background-color: rgb(40, 30, 235); */
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-}
-
-.nav{
-    display:flex;
-    /* background-color: rgb(0, 94, 255); */
-    /* width:1200px; */
-    justify-content: space-between;
-    /* border: 1px dashed black; */
-    /* gap: 10px; */
-    flex-grow: 1;
-   
-}
-
-.nav-link{
-    color: white;
-    text-decoration: none;
-   
-}
-
-.logo{
-    /* border-right: 1px dashed black;  */
-    width: 20%; 
-    text-align: center; 
-    } 
-
-.login{
-    /* border-left: 1px dashed black; */
-    width: 20%; 
-    text-align: center; 
-}  
-
-.login-button{
-  
-    background-color: white;
-    color: black;
-    padding: 6px;
-    border-radius: 15px;
-    text-decoration: none ;
-}
-
- 
-
-.main-header{
-
-    height: 300px;
-    /* background-color: rgb(111, 111, 200); */
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.quadrato-header{
-    /* height: 250px; */
-    width: 50%;
-    /* background-color: violet; */
-    text-align: center;
-
-}
-
-.quadrato-header{
-    color: white;
-}
-
-.header-p{
-    padding: 5px;
-}
-
-.dl-button{
-    color:black;
-    padding:10px;
-    margin-right: 5px;
-    background-color:white;
-    text-decoration: none;
-    border-radius: 15px;
-}
-
-.open-button{
-    color: white;
-    padding: 10px;
-    background-color: black;
-    text-decoration: none;
-    border-radius: 15px;
-    margin-left: 5px;
-}
 
 /* MAIN */
 
@@ -131,7 +132,6 @@ h2{
 .grey{
     /* debug */
     background-color: lightgray;
-    /* /debug */
     height: 500px;
     display: flex;
     justify-content: center;
@@ -143,7 +143,6 @@ h2{
 .grey-big{
     /* debug */
     background-color: lightgray;
-    /* /debug */
     height: 800px;
     display: flex; 
     justify-content: center;
@@ -153,10 +152,9 @@ h2{
 
 
 .square-blue{
-    /* debug */
     background-color: cornflowerblue;
     border: 1px dashed black;
-     height: 400px;
+    height: 400px;
     width: 50%;
 }
 
@@ -173,7 +171,6 @@ h2{
     /* debug */
     /* background-color: green; */
     /* border: 1px dashed black; */
-    
     height: 800px;
     width: 80%;
     
@@ -204,7 +201,6 @@ h2{
     /* debug */
     background-color: black;
     height: 500px;
-    /* /debug */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,7 +239,7 @@ a{
 .socials i{
     color: white;
     font-size:20px;
-    margin:10px 5px;
+    margin:10px  5px;
    
 }
 .col-title{
@@ -263,15 +259,12 @@ a{
 }
 
 .footer-buttons{
-    /* debug */
     background-color: black;
     height: 100px;
-    /* debug */
     display: flex;
     justify-content: center;
     align-items: center;
-   
-}
+   }
 
 .buttons-container{
     /* debug */
@@ -280,9 +273,7 @@ a{
     width: 80%;
     display:flex;
     justify-content: space-between;
-    align-items: center;
-    
-    
+    align-items: center;   
 }
 
 
